@@ -1,8 +1,8 @@
 {
   "bobsProj12Data": [
     {
-      "fullName": "Bob Ruzga",
-      "subject": "Science",
+      "fullName": "Robert Ruzga",
+      "subject": "Math",
       "id": 1
     },
     {
@@ -21,14 +21,14 @@
       "id": 4
     },
     {
-      "fullName": "Happy Gilmore",
-      "subject": "Golf",
-      "id": 6
-    },
-    {
       "fullName": "Wilma Flinstone",
       "subject": "History",
       "id": 7
+    },
+    {
+      "fullName": "Drew Ruzga",
+      "subject": "Art",
+      "id": 8
     }
   ]
 }
