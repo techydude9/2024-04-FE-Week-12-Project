@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob Ruzga's week 12 Coding Project</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+    <!--  Begin the coding for Week 12 Project 
+                I am coding a json db/server with jquery/ajax which will CRUD for
+                a school's teachers roster.  It will have a teachers name and the subject they
+                will be teaching-->
+
+    <h2 class="container rounded bg-dark-subtle text-center">Bob Ruzga's Week 12 Coding Project</h2>
+    <hr>
+    <!---- Adding an input form-->
+    <form class="container card bg-body-secondary">
+        <h4>Add New Teacher Form</h4>
+        <div class="card-body">
+          <label for="aTeacherName" class="form-label col">Teacher Name:</label>
+          <input type="text", id="aTeacherName", placeholder="New Teacher Name"/>
+          <br>
+          <label for="aSubject" class="form-label col">Teaching Subject:</label>
+          <input type="text", id="aSubject", placeholder="What subject"/>
+        </div>
+        <div>
+          <button id="newTeacherBtn" class="btn btn-outline-info">Add Teacher</button>
+        </div>
+      </form>
+      <br>
+  
+            <!---- Updating input form-->
+      <form class="container card bg-body-secondary bg-opacity-50">
+        <h4>Update Teacher Form</h4>
+        <div class="card-body">
+          <label for="uTeacherId" class="form-label">Teacher ID:</label>
+          <input type="text", id="uTeacherId", placeholder="Teacher ID to update"/>
+          <br>
+          <label for="uTeacherName" class="form-label">Teacher Name:</label>
+          <input type="text", id="uTeacherName", placeholder="Teacher Name to update"/>
+          <br>
+          <label for="uSubject" class="form-label">Teaching Subject:</label>
+          <input type="text", id="uSubject", placeholder="Subject to be updated"/>
+        </div>
+        <div>
+          <button id="updTeacherBtn" class="btn btn-outline-success">Update Teacher</button>
+        </div>
+      </form>
+      <br>
+  
+  
+      <!-- basic table to dynamically add content via JS-->
+      <table class="container table table-bordered table-hover">
+        <thead class="table-success table-striped">
+          <tr>
+            <th>ID</th>
+            <th>Teacher's Name</th>
+            <th>Subject</th>
+            <th>Delete Teacher</th>
+          </tr>
+        </thead>
+        <tbody class="table-striped">
+  
+        </tbody>
+      </table>
+  
+    <!--  End of Week 12 Project Coding -->
+      
+    <!-- Jquery and my JS scripts -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

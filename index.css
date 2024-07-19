@@ -1,0 +1,14 @@
+label{
+    display: inline-block;
+    clear: left;
+    width: 125px;
+    text-align: left; /*Change to right here if you want it close to the inputs*/
+}
+input {
+  display: inline-block;
+}
+
+#newTeacherBtn,
+#updTeacherBtn {
+    margin-left: 10%;
+}

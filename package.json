@@ -1,0 +1,16 @@
+{
+  "name": "2024-04-fe-week-12",
+  "version": "1.0.0",
+  "description": "Week 12 Coding Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  }
+}

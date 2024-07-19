@@ -1,0 +1,34 @@
+{
+  "bobsProj12Data": [
+    {
+      "fullName": "Bob Ruzga",
+      "subject": "Science",
+      "id": 1
+    },
+    {
+      "fullName": "Deb Ruzga",
+      "subject": "Psychology",
+      "id": 2
+    },
+    {
+      "fullName": "David Ruzga",
+      "subject": "Physical Ed",
+      "id": 3
+    },
+    {
+      "fullName": "Michelle Ruzga",
+      "subject": "Early Childhood Ed",
+      "id": 4
+    },
+    {
+      "fullName": "Happy Gilmore",
+      "subject": "Golf",
+      "id": 6
+    },
+    {
+      "fullName": "Wilma Flinstone",
+      "subject": "History",
+      "id": 7
+    }
+  ]
+}
